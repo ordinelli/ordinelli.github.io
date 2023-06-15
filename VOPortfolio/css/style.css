@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,21 +10,34 @@
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
+  
 }
+
+.navbar {
+  position: fixed; /* Add fixed positioning */
+  top: 0; /* Position the navbar at the top of the viewport */
+  width: 100%; /* Set the width to 100% */
+  z-index: 999; /* Set a higher z-index to ensure the navbar is displayed above other elements */
+}
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -40,7 +53,9 @@ table {
 
 html, body {
   width: 100%;
-  height: 110%;
+  height: 110%; /* Changed height to 100% */
+  margin: 0; /* Added margin: 0 to remove default body margin */
+  padding: 0; /* Added padding: 0 to remove default body padding */
 }
 
 body {
@@ -53,78 +68,63 @@ body {
 
 #particles {
   width: 100%;
-  height: 100%;
-  overflow: auto;
+  height: 130%;
+  overflow: hidden; /* Changed overflow to hidden to prevent horizontal scrolling */
 }
 
 #intro {
   position: absolute;
   left: 0;
-  top: 65%;
-  padding-top: 20px;
+  top: 65%; /* Adjust the top value to leave space for the fixed navbar */
+  padding-top: 10px;
   width: 100%;
   text-align: center;
 }
+
 h2 {
   text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 120;
+  font-size: 48px; /* Adjusted font-size for mobile devices */
+  font-weight: 700; /* Adjusted font-weight for mobile devices */
   color: #ffffff;
   letter-spacing: 0.05em;
+  margin-bottom: 10px; /* Added margin-bottom for spacing */
 }
+
 h1::after {
   content: '';
   width: 80px;
   display: block;
   background: #fff;
-  height: 10px;
-  margin: 30px auto;
+  height: 6px; /* Adjusted height for mobile devices */
+  margin: 10px auto; /* Adjusted margin for mobile devices */
   line-height: 1.1;
 }
+
 p {
-  margin: 0 0 30px 0;
-  font-size: 24px;
+  margin: 0 0 20px 0; /* Adjusted margin for spacing */
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 15px;
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 20px; /* Adjusted font-size for smaller mobile devices */
   }
-}
-
-@media only screen and (max-width: 100px) {
   h1 {
-    font-size: 15px;
+    font-size: 18px; /* Adjusted font-size for smaller mobile devices */
   }
   h1::after {
-    height: 8px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  #intro {
-    padding: 0 10px;
-  }
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 6px;
+    height: 4px; /* Adjusted height for smaller mobile devices */
   }
   p {
-    font-size: 18px;
-  }
-  .btn {
-    font-size: 16px;
+    font-size: 16px; /* Adjusted font-size for smaller mobile devices */
   }
 }
 
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 4px;
-  }
+footer {
+  position: fixed; /* Add fixed positioning */
+  bottom: 0; /* Position the footer at the bottom of the viewport */
+  width: 100%; /* Set the width to 100% */
+  background-color: #000010;
+  text-align: center;
 }
