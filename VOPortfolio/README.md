@@ -5,24 +5,8 @@ Welcome to my personal website!
 > [Website](link)
 
 
-# Using the Template
+# About
 
-  - Fork and Clone the repository
-
-    ```
-    $ git clone https://github.com/itsron717/ParticleGround-Portfolio.git
-    ```
- 
-  - Go inside the main repository
-  
-    ```
-    $ cd ParticleGround-Portfolio
-    ```
-    
-  - Modify `index.html` to change the names and links to point at your pages.
-  
-  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
-   
 # References and Inspiration
 
 This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
