@@ -80,34 +80,34 @@ body {
   width: 100%;
   text-align: center;
 }
-@media only screen and (max-height: 600px) {
+@media only screen and (min-height: 550px) {
   #intro {
-    top: 105%; /* Adjust the top value for screens smaller than 1920px */
+    top: 130%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
-@media only screen and (min-height: 645px) {
+@media only screen and (min-height: 640px) {
   #intro {
-    top: 125%; /* Adjust the top value for screens smaller than 1920px */
+    top: 120%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
-@media only screen and (min-height: 720px) {
+@media only screen and (min-height: 715px) {
   #intro {
-    top: 90%; /* Adjust the top value for screens smaller than 1920px */
+    top: 110%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
 @media only screen and (min-height: 730px) {
   #intro {
-    top: 115%; /* Adjust the top value for screens smaller than 1920px */
+    top: 110%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
-@media only screen and (min-height: 790px) {
+@media only screen and (min-height: 760px) {
   #intro {
     top: 105%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
 @media only screen and (min-height: 800px) {
   #intro {
-    top: 75%; /* Adjust the top value for screens smaller than 1920px */
+    top: 95%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
 @media only screen and (min-height: 840px) {
