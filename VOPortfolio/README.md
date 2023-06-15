@@ -1,10 +1,9 @@
-# ParticleGround-Portfolio
+# Vincent Ordinelli
 
-A particle-theme template as a landing page for your portfolio.
+Welcome to my personal website!
 
-> [Demo](https://landing-page--itsron717.repl.co/)
+> [Website](link)
 
-<img src="particle_demo/particle_demo.png"/>
 
 # Using the Template
 
@@ -24,11 +23,7 @@ A particle-theme template as a landing page for your portfolio.
   
   - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
    
-# Particle Feature
-
-The particle feature was obtained with the help of this [particleground](https://github.com/jnicol/particleground). The changes in the particles such as speed, drift, colour, direction, density, etc. can be modified in `demo.js`. Refer to the above link for more details.
-
-
 # References and Inspiration
 
 This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
+The particle feature was obtained with the help of this [particleground](https://github.com/jnicol/particleground). The changes in the particles such as speed, drift, colour, direction, density, etc. can be modified in `demo.js`. Refer to the above link for more details.
