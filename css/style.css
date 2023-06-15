@@ -117,24 +117,11 @@ body {
 }
 @media only screen and (min-height: 895px) {
   #intro {
-    top: 85%; /* Adjust the top value for screens smaller than 1920px */
-  }
-}
-@media only screen and (min-height: 1000px) {
-  #intro {
     top: 65%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
-@media only screen and (min-height: 1100px) {
-  #intro {
-    top: 55%; /* Adjust the top value for screens smaller than 1920px */
-  }
-}
-@media only screen and (min-height: 1300px) {
-  #intro {
-    top: 45%; /* Adjust the top value for screens smaller than 1920px */
-  }
-}
+
+
 
 
 h2 {
