@@ -80,30 +80,57 @@ body {
   width: 100%;
   text-align: center;
 }
-
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-height: 600px) {
+  #intro {
+    top: 105%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 645px) {
+  #intro {
+    top: 125%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 720px) {
+  #intro {
+    top: 90%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 730px) {
+  #intro {
+    top: 115%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 800px) {
+  #intro {
+    top: 75%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 840px) {
+  #intro {
+    top: 95%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 895px) {
+  #intro {
+    top: 85%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 1000px) {
   #intro {
     top: 65%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
-
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-height: 1100px) {
   #intro {
-    top: 75%; /* Adjust the top value for screens smaller than 1600px */
+    top: 55%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
+@media only screen and (min-height: 1300px) {
+  #intro {
+    top: 45%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
 
-@media only screen and (max-width: 1366px) {
-  #intro {
-    top: 75%; /* Adjust the top value for screens smaller than 1366px */
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  #intro {
-    top: 85%; /* Adjust the top value for screens smaller than 1366px */
-  }
-}
 
 h2 {
   text-transform: uppercase;
