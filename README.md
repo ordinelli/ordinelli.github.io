@@ -2,7 +2,7 @@
 
 Welcome to my personal website / portfolio!
 
-> [Website Link](link)
+> [Website Link](https://ordinelli.github.io)
 
 
 # About
