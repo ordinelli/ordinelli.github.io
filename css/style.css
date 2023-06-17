@@ -178,10 +178,6 @@ footer {
 }
 
 
-body {
-  background-color: #212529;
-}
-
 .project-showcase {
   display: flex;
   flex-wrap: wrap;
