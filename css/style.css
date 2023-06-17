@@ -95,6 +95,11 @@ body {
     top: 110%; /* Adjust the top value for screens smaller than 1920px */
   }
 }
+@media only screen and (min-height: 720px) {
+  #intro {
+    top: 95%; /* Adjust the top value for screens smaller than 1920px */
+  }
+}
 @media only screen and (min-height: 730px) {
   #intro {
     top: 110%; /* Adjust the top value for screens smaller than 1920px */
