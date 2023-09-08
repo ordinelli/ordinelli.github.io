@@ -1,142 +1,588 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <base target="_blank">
-  <meta charset="UTF-8" />
-  <title>Vincent Ordinelli</title>
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-  
-  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
-  
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Vincent Ordinelli</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="icons8-v-67.png">
+
 </head>
 
-<body>
+<body id="top">
 
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Vincent Ordinelli</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-              >
-              About
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://ordinelli.github.io/Items/Vincent-Ordinelli-Resume%20-%20Copy.pdf">Resume</a></li>
-              <hr class="dropdown-divider">
-              <li><a class="dropdown-item" href="#">Projects</a></li>
-              <li>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
 
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">MENU</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Projects</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>		
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hi there!</h5>
+	   			<h1>I'm Vincent Ordinelli.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Applied Computer Science Graduate, Web Developer / Programmer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://www.linkedin.com/in/ordinelli/"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/ordinelli"><i class="fa fa-github"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
 
 
-<div id="particles">
-  
-  <div id="intro">
-    
-    <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Vincent Ordinelli&nbsp<a
-      href="https://ordinelli.github.io/Items/Vincent-Ordinelli-Resume%20-%20Copy.pdf" style="color: white;"><img
-        src="https://pluspng.com/img-png/resume-png--600.png" height="35" width="35"></a>
-  </h2>
-  <a href="https://www.linkedin.com/in/vincent-ordinelli-b7476220a/" style="color: white;"><i
-      class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-  &nbsp
-  <a href="https://github.com/ordinelli" style="color: white;"><i class="fab fa-github"
-      style="font-size: 2em;"></i></a>
-  <div style="padding: 0 100px;">
-    <P><br>Hi! Welcome to my personal website! My name is Vincent, I am a recent Applied Computer Science graduate from Dalhousie
-      University in Halifax, Nova Scotia. I am
-      interested in the topics of web development / UI & UX with a passion for creating user-friendly and visually
-      appealing applications. I have experience in creating applications within project teams using development
-      languages such as HTML/CSS, PHP, Java, SQL as well as working with frameworks such as Angular, React and
-      NodeJS!
-      I also have experience in leading and managing agile teams, conducting stakeholder meetings, and documenting
-      project
-      progress.</P>
-  </div>
-    <div class="container py-5">
-      <h2 class="section-title">Education</h2>
-      <div>
-        <div>
-          <div class="education-item">
-            <div class="education-icon">
-              <img src="https://hotspotparking.com/img/dal-logo-small.png" style="width:200px; height: 200px;">
-            </div>
-            <div class="education-details" style="line-height: 0.1;">
-              <h3 class="education-title">Bachelor of Science in Applied Computer Science</h3>
-              <p class="education-school">Dalhousie University</p>
-              <p class="education-school">Sexton Scholar Distincton</p>
-              <p class="education-year">2019 - 2023</p>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-  </div>
-  <div class="container" style="width:40%;" id="contact">
-    <div style="justify-content: center; align-items: center; display: flex;">
-      
-    <h2>Contact Me</h2>
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
 
-    </div>
-    <form id="contactForm" method="POST">
-      <a href="mailto:Vincent.ordinelli@dal.ca" class="btn btn-light">Send me an email!</a>
+   	<div class="row section-intro">
+   		<div class="col-twelve">
 
-    </form>
-</div>
-  </div>
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
 
-  
-</div>
+   			<div class="intro-info">
 
-<script>
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent form submission
+   				<img src="images/50507fb902eead67a4ea4a5ae09e5e57.png" alt="Profile Picture">
 
-      // Get form values
-      var name = document.getElementById('name').value;
-      var email = document.getElementById('email').value;
-      var message = document.getElementById('message').value;
+   				<p class="lead"> Hi and welcome to my personal website! My name is Vincent Ordinelli. I was born and raised in the city of Halifax where I grew up and attended Dalhousie University for four years and continue to live. I have always 
+					been interested and involved with computers and technology since a young age. My degree in Applied Computer Science has further allowed me to pursue my passions and interest in creating real world applications that are useful and usable
+					by people of all abilities!
+				</p>
+   			</div>   			
 
-      // Create email link
-      var subject = encodeURIComponent('Website Contact');
-      var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage: ' + message);
-      var mailtoLink = 'mailto:vincent.ordinelli@dal.ca?subject=' + subject + '&body=' + body;
+   		</div>   		
+   	</div> <!-- /section-intro -->
 
-      // Open default email client
-      window.location.href = mailtoLink;
-  });
-</script>
+   	<div class="row about-content">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p></p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Vincent Ordinelli</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>July 1, 2001</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Open to work</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>ordinelli.github.io</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>vincent.ordinelli@dal.ca</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+			<b>Programming Languages</b>
+				<ul class="disc">
+					<li>Java</li>
+					<li>HTML, CSS</li>
+					<li>JavaScript, SQL, Python</li>
+				</ul>	
+				<b>Web Development / UI Frameworks</b>
+				<ul class="disc">
+					<li>React</li>
+					<li>Node.JS</li>
+					<li>Express.JS</li>
+					<li>Material-UI, Bootstrap, Tailwind CSS</li>
+				</ul>	
+				<b>Version Control & Developer Tools</b>
+				<ul class="disc">
+					<li>Git, Docker, Figma</li>
+					<li>Wireshark, Android Studio, VS Code</li>
+					<li>IntelliJ, Eclipse</li>
+				</ul>	
+				<b>Testing Frameworks</b>
+				<ul class="disc">
+					<li>JUnit</li>
+
+				</ul>	
+				<b>Content Management Systems</b>
+				<ul class="disc">
+					<li>Wordpress</li>
+					<li>SquareSpace</li>
+				</ul>	
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Contact Me" class="button stroke smoothscroll">Contact Me</a>
+   			<a href="Vincent-Ordinelli-Resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="dark-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h1 style="color:white;">Resume</h1>
+			   <div>
+				<object
+				  data='Vincent-Ordinelli-Resume.pdf'
+				  type="application/pdf"
+				  width="700"
+				  height="678"
+				>
+		  
+				  <iframe
+					src='Vincent-Ordinelli-Resume.pdf'
+					width="700"
+					height="678"
+				  >
+				  <p>This browser does not support PDF!</p>
+				  </iframe>
+				</object>
+			  </div>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Projects</h5>
+   			<h1>Check out some of my projects!</h1>
+			<h4>More to be added as website construction progresses.</h2>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/vettech.jpg" alt="Fennec">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Vet Tech Practice Website</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Web Application
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->  
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/androidbarterapp.png" alt="Barter Trader App">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Barter Trader App - Android</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Mobile Application
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/covidapp.png"alt="Covid App Design">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">COVID-19 Application Design</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Application Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-vettech.jpg" alt=""/>
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Fennec - Vet Tech Practice Website </h4>		      
+					      <p>A interactive practice website developed within a group of students using React and Node.JS for a class of Dalhousie Veterinary Technology students </p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a>Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-androidbarterapp.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Barter Trader App - Android</h4>		      
+					      <p>An Android application developed with a group of students taking Software Engineering (CSCI3130) in Java using Android Studio allowing users to exchange items online.</p>
+
+					      <div class="categories">Mobile Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a>Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-covidapp.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>COVID-19 Application Design</h4>		      
+					      <p>A medium fidelity prototype created for a designing user interfaces class, allowing users to get the most up to date information regarding the ongoing COVID outbreak (2021)</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://www.figma.com/proto/uJENiLcf8wDoEYJJwejWvZ/MS3W3_Prototype?type=design&node-id=567-4260&scaling=scale-down&page-id=0%3A1&starting-point-node-id=567%3A4260">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+				   </div> 
+				   </div>
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">My passion and interests revolve around creating appealing and usable applications. I would love to help contribute towards your project goals!</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Web Design</h3>
+
+		            <p class="desc">Experienced in creating low-medium fidelity prototypes using Figma and other design applications, I enjoy being involved in the user-centered design process and the early stages of prototyping / user testing.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">Having worked with multiple front-end languages and frameworks as well as handling back-end capabilities has allowed me to adapt to new codebases and learn project development processes quickly.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-user"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Client Support / User Testing</h3>
+
+		            <p class="desc">
+						I'm not only passionate about web design and development but also dedicated to ensuring a seamless user experience. Whether it's offering client support, conducting user testing, or providing technical assistance to users, I enjoy trying to bridge the gap between technology and people.
+	        			</p> 
+
+	            </div> 	            	                        
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Feel free to contact me! If the form below does not submit, please email to: vincent.ordinelli@dal.ca</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-six tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>vincent.ordinelli@dal.ca<br>		     
+			   </p>
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+1) 902-497-2573<br>
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+					<li><a href="https://www.linkedin.com/in/ordinelli/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/ordinelli"><i class="fa fa-github"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-eight tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright 2023 Vincent Ordinelli </span> 	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
 
-
-<!--<footer class="footer bg-dark" style="padding-top: 10px;">
-  <div>
-    <p class="text-center" style="color:white; font-size: 20px">&copy; 2023 Vincent Ordinelli. All rights reserved.</p>
-  </div>
-</footer>-->
 </html>
